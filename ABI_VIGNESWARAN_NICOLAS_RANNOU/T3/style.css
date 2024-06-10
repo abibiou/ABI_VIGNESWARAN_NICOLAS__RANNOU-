@@ -1,0 +1,98 @@
+body {
+    background-image: url(../T3/img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+.logo {
+    width: 100px;
+}
+
+.titre {
+    background-color: #87CEFA;
+    border-radius: 5px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+h3 {
+    margin-top: -15px;
+}
+.organiser {
+    margin: 27px 55px;
+    display: flex;
+}
+.tableau {
+    background-color: #87CEFA;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 520px;
+}
+.confirmey {
+    background-color: #87CEFA;
+    border-radius: 15px;
+    padding: 20px;
+    width: 420px;
+}
+
+th, td {
+    border: solid blue 2px;
+    padding: 5px;
+}
+p {
+    color: aliceblue;
+}
+h2, h4 {
+    color: aliceblue;
+}
+input { 
+    border: 1px solid #87CEFA; 
+    border-radius: 8px; 
+    padding: 5px 7px;
+    background-color: #E3F0FE;
+}
+.total{
+    background-color: #87CEFA;
+    border: 1px solid #87CEFA; 
+}
+.recherchey {
+    margin-left: 35px;
+    width: 220px;
+    
+}
+.effacey {
+    margin-left: 35px;
+    width: 220px;
+}
+.voyagey {
+    margin-left: 45px;  
+}
+.longeurtd {
+    width: 50px; 
+}
+.tableauimportant {
+    display: flex;
+    align-items: center; 
+}
+.plusetmoins {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 25px; 
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #87CEFA;
+    text-align: center; 
+}
+
+.couleur{
+    color: aliceblue;
+}

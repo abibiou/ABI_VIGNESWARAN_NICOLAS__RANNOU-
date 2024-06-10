@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link href="../T3/style.css" rel="stylesheet">
+    <script src="scipt.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="titre">
+        <h1>BOOKING HOTEL</h1>
+        <h3>INDIQUEZ VOS DATES DE RÉSERVATION - TOUTE ANNULATION DOIT SE FAIRE 48H AVANT</h3>
+    </div>
+
+    <div class="organiser">
+        <table class="tableau">
+            <tr>
+                <td><img src="../T3/img/logo.png" class="logo"></td>
+                <td class="couleur">France - Étranger</td>
+            </tr>
+            <tr>
+                <td class="couleur" >Lieu de séjour</td>
+                <td><input type="text" id="lieu" name="lieu" placeholder="Lieu du séjour"></td>
+
+            </tr>
+            <tr>
+                <td class="couleur">Durée</td>
+                <td>
+                    <div class="tableauimportant">
+                        <input id="debut" type="date" name="debut">
+                        <input id="fin" type="date" name="fin">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="couleur" >Adulte</td>
+                <td>
+                    <div class="tableauimportant">
+                        <input class="longeurtd" type="number" id="adulte_nb" name="adulte_nb">
+                        <img src="../T3/img/pluss.png" alt="Augmenter"class="plusetmoins" id="pluss">
+                        <img src="../T3/img/moinss.png" alt="Diminuer"class="plusetmoins" id="moinss">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="couleur">Enfant</td>
+                <td>
+                    <div class="tableauimportant">
+                        <input class="longeurtd" type="number" id="enfant_nb" name="enfant_nb">
+                        <img src="../T3/img/pluss.png"  alt="Augmenter" class="plusetmoins" id="plusss">
+                        <img src="../T3/img/moinss.png"  alt="Diminuer" class="plusetmoins" id="moinsss">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="couleur">Chambre</td>
+                <td>
+                    <div class="tableauimportant">
+                        <input class="longeurtd" type="number" id="chambre_nb" name="chambre_nb">
+                        <img src="../T3/img/pluss.png"alt="Augmenter" class="plusetmoins" id="plus">
+                        <img src="../T3/img/moinss.png" alt="Diminuer" class="plusetmoins" id="moins">
+                    </div>
+                </td>
+            </tr>
+            
+            
+            <tr>
+                <td colspan="4"><input type="submit" name="research" class="recherchey" value="Rechercher" onclick="calculer()"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="reset" name="reset" class="effacey" value="Effacer" onclick="reset()"></td>
+            </tr>
+            <tr>
+                <td class="couleur" colspan="4"><input type="checkbox" id="voyage" name="voyage" class="voyagey" id="voyage">Je voyage pour le travail </td>
+
+            </tr>
+        </table>
+
+        <div class="confirmey">
+            <h2>Confirmation réservation</h2>
+            <h4>Nombre(s) d'adulte(s) :</h4>
+            <input class="total" type="number" id="confirmationadulte" name="confirm_adulte_nb">
+            <h4>Nombre(s) d'enfant(s) :</h4>
+            <input  class="total" type="number" id="confirmationenfant" name="confirm_enfant_nb">
+            <h4>Nombre(s) de chambre(s) :</h4>
+            <input  class="total" type="number" id="confirmationchambre" name="confirm_chambre_nb">
+            <h4>Voyage pour le travail :</h4>
+            <input  class="total" type="text" id="confirmationvoyage" name="confirm_voyage">
+        </div>
+    </div>
+<footer>
+    <h4> INDIQUEZ VOS DATES DE RÉSERVATION - TOUTE ANNULATION DOIT SE FAIRE AVANT 48H</h4>
+</footer>
+</body>
+</html>
